@@ -88,7 +88,13 @@ for idx in selected_indexes:
     df = load_data(idx + "_RSC.csv")
     df = df.loc[start_date:end_date]
 
+    if df.empty:
+        continue
+
     df_resampled = resample_data(df, timeframe)
+
+    if df_resampled.empty:
+        continue
 
     if use_smoothing:
         df_resampled['RSC'] = df_resampled['RSC'].rolling(20).mean()
