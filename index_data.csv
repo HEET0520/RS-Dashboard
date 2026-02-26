@@ -1,0 +1,52 @@
+Match Type,CSV IndexName,API Sysname,Notes
+Exact / Very Close,Nifty 50,NSE:NIFTY50-INDEX,NIFTY 50
+Exact / Very Close,Nifty 100,NSE:NIFTY100-INDEX,NIFTY100
+Exact / Very Close,Nifty 200,NSE:NIFTY200-INDEX,NIFTY 200
+Exact / Very Close,Nifty 500,NSE:NIFTY500-INDEX,NIFTY 500
+Exact / Very Close,Nifty Next 50,NSE:NIFTYNXT50-INDEX,NIFTYNXT50 / Nifty Next50
+Exact / Very Close,Nifty Midcap 100,NSE:NIFTYMIDCAP100-INDEX,NIFTY Midcap 100
+Exact / Very Close,Nifty Midcap 50,NSE:NIFTYMIDCAP50-INDEX,NIFTYMID50
+Exact / Very Close,Nifty Smallcap 100,NSE:NIFTYSMLCAP100-INDEX,NIFTY SMLCAP 100
+Exact / Very Close,Nifty Smallcap 50,NSE:NIFTYSMLCAP50-INDEX,NIFTY SMLCAP 50
+Exact / Very Close,Nifty Microcap 250,NSE:NIFTYMICROCAP250-INDEX,NIFTY MICROCAP250
+Exact / Very Close,Nifty Total Market,NSE:NIFTYTOTALMKT-INDEX,NIFTY TOTAL MKT
+Exact / Very Close,Nifty MidSmallcap 400,NSE:NIFTYMIDSML400-INDEX,NIFTY MIDSML 400
+Exact / Very Close,Nifty LargeMidcap 250,NSE:NIFTYLARGEMID250-INDEX,NIFTY LARGEMID250
+Exact / Very Close,Nifty High Beta 50,NSE:NIFTYHIGHBETA50-INDEX,NIFTY HIGHBETA 50
+Exact / Very Close,Nifty Alpha 50,NSE:NIFTYALPHA50-INDEX,NIFTY ALPHA 50
+Exact / Very Close,Nifty Low Volatility 50,NSE:NIFTYLOWVOL50-INDEX,NIFTY LOW VOL 50
+Exact / Very Close,Nifty FMCG,NSE:NIFTYFMCG-INDEX,NIFTY FMCG
+Exact / Very Close,Nifty IT,NSE:NIFTYIT-INDEX,NIFTY IT
+Exact / Very Close,Nifty CPSE,NSE:NIFTYCPSE-INDEX,NIFTY CPSE
+Exact / Very Close,Nifty PSE,NSE:NIFTYPSE-INDEX,NIFTY PSE
+Exact / Very Close,Nifty MNC,NSE:NIFTYMNC-INDEX,NIFTY MNC
+Exact / Very Close,Nifty IPO,NSE:NIFTYIPO-INDEX,NIFTY IPO
+Exact / Very Close,Nifty Commodities,NSE:NIFTYCOMMODITIES-INDEX,NIFTY COMMODITIES
+Exact / Very Close,Nifty Energy,NSE:NIFTYENERGY-INDEX,NIFTY ENERGY
+Exact / Very Close,Nifty Oil & Gas,NSE:NIFTYOILANDGAS-INDEX,NIFTY OIL AND GAS
+Exact / Very Close,Nifty Pharma,NSE:NIFTYPHARMA-INDEX,NIFTY PHARMA
+Exact / Very Close,Nifty Realty,NSE:NIFTYREALTY-INDEX,NIFTY REALTY
+Exact / Very Close,Nifty Consumer Durables,NSE:NIFTYCONSRDURBL-INDEX,NIFTY CONSR DURBL
+Near Match,Nifty Midcap 150,NSE:NIFTYMIDCAP150-INDEX,Standard midcap 150 index
+Near Match,Nifty Smallcap 250,NSE:NIFTYSMLCAP250-INDEX,Standard smallcap 250 index
+Near Match,Nifty India Consumption,NSE:NIFTYCONSUMPTION-INDEX,Common name variation
+Near Match,Nifty India Defence,NSE:NIFTYINDDEFENCE-INDEX,Thematic defence index
+Near Match,Nifty India Manufacturing,NSE:NIFTYINDIAMFG-INDEX,Manufacturing thematic
+Near Match,Nifty India Digital,NSE:NIFTYINDDIGITAL-INDEX,Digital / tech thematic
+Near Match,Nifty Housing,NSE:NIFTYHOUSING-INDEX,Housing sector
+Near Match,Nifty Core Housing,NSE:NIFTYCOREHOUSING-INDEX,Core housing variant
+Near Match,Nifty India Tourism,NSE:NIFTYINDTOURISM-INDEX,Tourism thematic
+Near Match,Nifty Non-Cyclical Consumer,NSE:NIFTYNONCYCCONS-INDEX,Defensive consumer index
+Near Match,Nifty Services Sector,NSE:NIFTYSERVSECTOR-INDEX,Services sector
+Near Match,Nifty Transportation & Logistics,NSE:NIFTYTRANSLOGIS-INDEX,Transport & logistics thematic
+Near Match,Nifty Capital Markets,NSE:NIFTYCAPITALMKT-INDEX,Capital markets / broking sector
+Near Match,Nifty Financial Services Ex-Bank,NSE:NIFTYFINSEREXBNK-INDEX,Financial services excluding banks
+Near Match,Nifty Financial Services 25/50,NSE:NIFTYFINSRV2550-INDEX,Fin services capped index
+Near Match,Nifty MidSmall Financial Services,NSE:NIFTYMSFINSERV-INDEX,Mid-small financial services
+Near Match,Nifty MidSmall Healthcare,NSE:NIFTYMIDSMLHLTH-INDEX,Mid-small healthcare
+Near Match,Nifty MidSmall IT & Telecom,NSE:NIFTYMSITTELCM-INDEX,Mid-small IT & telecom
+Near Match,Nifty Private Bank,NSE:NIFTYPVTBANK-INDEX,Private banks
+Near Match,Nifty PSU Bank,NSE:NIFTYPSUBANK-INDEX,Public sector banks
+Near Match,Nifty India Infrastructure & Logistics,NSE:NIFTYMULTIINFRA-INDEX,Likely multi infra / infra thematic
+Near Match,Nifty India New Age Consumption,NSE:NIFTYNEWCONSUMP-INDEX,New consumption / modern consumer
+Near Match,Nifty India Corporate Group Index - Aditya Birla Group,NSE:NIFTYCORPMAATR-INDEX,Corporate MAATR (multi-group)

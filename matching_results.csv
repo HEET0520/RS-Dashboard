@@ -1,0 +1,110 @@
+Status,Match Type,SrNo,BenchmarkCode,IndexName,API Sysname,Notes
+Matched,Exact / Very Close,1,NSE_E_63,Nifty 500,NSE:NIFTY500-INDEX,Direct mapping with API sysname
+Matched,Exact / Very Close,2,NSE_E_59,Nifty 100,NSE:NIFTY100-INDEX,Direct mapping with API sysname
+Matched,Near Match,3,NSE_E_438,Nifty Midcap 150,NSE:NIFTYMIDCAP150-INDEX,Slight variation in naming but core match
+Matched,Near Match,4,NSE_E_416,Nifty Smallcap 250,NSE:NIFTYSMLCAP250-INDEX,Core mapping matches despite format variation
+Matched,Exact / Very Close,5,NSE_E_60,Nifty 50,NSE:NIFTY50-INDEX,Direct mapping with API sysname
+Matched,Exact / Very Close,6,NSE_E_62,Nifty Next 50,NSE:NIFTYNXT50-INDEX,Direct mapping with API sysname
+Matched,Near Match,7,NSE_E_39,Nifty Midcap 50,NSE:NIFTYMIDCAP50-INDEX,Core mapping matches
+Matched,Near Match,8,NSE_E_56,Nifty Midcap 100,NSE:NIFTYMIDCAP100-INDEX,Core mapping matches
+Matched,Near Match,9,NSE_E_424,Nifty Smallcap 50,NSE:NIFTYSMLCAP50-INDEX,Core mapping matches
+Matched,Near Match,10,NSE_E_204,Nifty Smallcap 100,NSE:NIFTYSMLCAP100-INDEX,Core mapping matches
+Matched,Near Match,11,NSE_E_707,Nifty Smallcap 500,NSE:NIFTYSMLCAP250-INDEX,Smallest cap index representation
+Matched,Exact / Very Close,12,NSE_E_224,Nifty 200,NSE:NIFTY200-INDEX,Direct mapping with API sysname
+Matched,Near Match,13,NSE_E_472,Nifty LargeMidcap 250,NSE:NIFTYLARGEMID250-INDEX,Core mapping matches
+Matched,Near Match,14,NSE_E_583,Nifty500 Multicap 50:25:25,NSE:NIFTY500MULTICAP-INDEX,Multicap allocation variant
+Matched,Near Match,15,NSE_E_584,Nifty Microcap 250,NSE:NIFTYMICROCAP250-INDEX,Direct cap segment mapping
+Matched,Near Match,16,NSE_E_591,Nifty Total Market,NSE:NIFTYTOTALMKT-INDEX,Core mapping matches
+Matched,Near Match,17,NSE_E_428,Nifty MidSmallcap 400,NSE:NIFTYMIDSML400-INDEX,Core mapping matches
+Unmatched,nan,18,NSE_E_589,Nifty Midcap Select,nan,No corresponding API sysname in Fyers config
+Matched,Near Match,19,NSE_E_667,Nifty500 LargeMidSmall Equal-Cap Weighted,NSE:NIFTY500LMSEQL-INDEX,Equal-weight variant of Nifty500
+Matched,Near Match,20,NSE_E_700,Nifty India FPI 150,nan,No direct API sysname in Fyers config
+Matched,Near Match,22,NSE_E_260,Nifty High Beta 50,NSE:NIFTYHIGHBETA50-INDEX,Factor-based variant
+Matched,Near Match,23,NSE_E_280,Nifty100 Equal Weight,NSE:NIFTY100 EQL WGT-INDEX,Equal-weight variant of Nifty100
+Matched,Near Match,24,NSE_E_457,Nifty50 Equal Weight,NSE:NIFTY50 EQL WGT-INDEX,Equal-weight variant of Nifty50
+Matched,Near Match,25,NSE_E_665,Nifty500 Equal Weight,NSE:NIFTY500EW-INDEX,Equal-weight variant of Nifty500
+Matched,Near Match,26,NSE_E_689,Nifty500 Multifactor MQVLv 50,NSE:NIFTYMS400MQ100-INDEX,Multifactor variant
+Unmatched,nan,27,NSE_E_702,Nifty Conglomerate 50,nan,No corresponding API sysname in Fyers config
+Matched,Near Match,28,NSE_E_360,Nifty Midcap Liquid 15,NSE:NIFTYMIDLIQ15-INDEX,Liquidity-filtered variant
+Matched,Near Match,29,NSE_E_286,Nifty100 Liquid 15,NSE:NIFTY100LIQ15-INDEX,Liquidity-filtered variant
+Unmatched,nan,30,NSE_E_447,Nifty 50 Futures Index,nan,Futures-specific variant not in config
+Unmatched,nan,31,NSE_E_448,Nifty 50 Futures TR Index,nan,Futures-specific variant not in config
+Matched,Near Match,32,NSE_E_258,Nifty Alpha 50,NSE:NIFTYALPHA50-INDEX,Factor-based variant
+Matched,Near Match,33,NSE_E_461,Nifty Alpha Low-Volatility 30,NSE:NIFTYALPHALOWVOL-INDEX,Factor-based variant
+Matched,Near Match,34,NSE_E_463,Nifty Alpha Quality Low-Volatility 30,NSE:NIFTYQLTYLV30-INDEX,Factor quality variant
+Unmatched,nan,35,NSE_E_464,Nifty Alpha Quality Value Low-Volatility 30,nan,No direct API sysname for this specific combination
+Matched,Near Match,36,NSE_E_235,Nifty Dividend Opportunities 50,NSE:NIFTYDIVOPPS50-INDEX,Dividend factor variant
+Matched,Near Match,37,NSE_E_257,Nifty Low Volatility 50,NSE:NIFTYLOWVOL50-INDEX,Factor-based variant
+Unmatched,nan,38,NSE_E_625,Nifty Midcap150 Momentum 50,nan,No direct momentum-specific variant in config
+Unmatched,nan,39,NSE_E_561,Nifty Midcap150 Quality 50,nan,No direct quality-specific variant in config
+Unmatched,nan,40,NSE_E_657,Nifty MidSmallcap400 Momentum Quality 100,nan,No direct combined factor variant in config
+Matched,Near Match,41,NSE_E_462,Nifty Quality Low-Volatility 30,NSE:NIFTYQLTYLV30-INDEX,Factor quality variant
+Unmatched,nan,42,NSE_E_650,Nifty Smallcap250 Momentum Quality 100,nan,No direct combined factor variant in config
+Matched,Near Match,43,NSE_E_636,Nifty Smallcap250 Quality 50,NSE:NIFTYSML250Q50-INDEX,Quality factor variant for small caps
+Unmatched,nan,44,NSE_E_699,Nifty Total Market Momentum Quality 50,nan,No direct combined factor variant in config
+Matched,Near Match,45,NSE_E_555,Nifty100 Alpha 30,NSE:NIFTY100ALPHA30-INDEX,Alpha factor variant
+Matched,Near Match,46,NSE_E_460,Nifty100 Low Volatility 30,NSE:NIFTY100 LOWVOL30-INDEX,Low volatility factor variant
+Matched,Near Match,47,NSE_E_391,Nifty100 Quality 30,NSE:NIFTYQUALITY30-INDEX,Quality factor variant
+Matched,Near Match,48,NSE_E_620,Nifty200 Alpha 30,nan,No direct API sysname for Nifty200 Alpha in config
+Matched,Near Match,49,NSE_E_580,Nifty200 Momentum 30,NSE:NIFTY200MOMENTM30-INDEX,Momentum factor variant
+Matched,Near Match,50,NSE_E_483,Nifty200 Quality 30,NSE:NIFTY200QUALTY30-INDEX,Quality factor variant
+Matched,Near Match,51,NSE_E_668,Nifty200 Value 30,NSE:NIFTY200VALUE30-INDEX,Value factor variant
+Matched,Near Match,52,NSE_E_353,Nifty50 Value 20,NSE:NIFTY50VALUE 20-INDEX,Value factor variant
+Matched,Near Match,53,NSE_E_693,Nifty500 Flexicap Quality 30,nan,No direct flexicap quality variant in config
+Matched,Near Match,54,NSE_E_686,Nifty500 Low Volatility 50,NSE:NIFTY500LOWVOL50-INDEX,Low volatility factor variant
+Unmatched,nan,55,NSE_E_681,Nifty500 Multicap Manufacturing 50:30:20,nan,No direct manufacturing multicap variant in config
+Matched,Near Match,56,NSE_E_563,Nifty Oil & Gas,NSE:NIFTYOILANDGAS-INDEX,Sector mapping
+Matched,Near Match,57,NSE_E_217,Nifty Auto,NSE:NIFTYAUTO-INDEX,Sector mapping
+Matched,Exact / Very Close,58,NSE_E_54,Nifty Bank,NSE:NIFTYBANK-INDEX,Direct sector mapping
+Matched,Near Match,59,NSE_E_564,Nifty Consumer Durables,NSE:NIFTYCONSRDURBL-INDEX,Sector mapping
+Matched,Near Match,60,NSE_E_227,Nifty Financial Services,nan,No direct API sysname (financial services covered under FINSERV variants)
+Matched,Near Match,61,NSE_E_568,Nifty Financial Services 25/50,nan,No direct API sysname for this variant
+Matched,Near Match,62,NSE_E_606,Nifty Financial Services Ex-Bank,NSE:NIFTYFINSEREXBNK-INDEX,Ex-bank financial services variant
+Matched,Exact / Very Close,63,NSE_E_30,Nifty FMCG,NSE:NIFTYFMCG-INDEX,Direct sector mapping
+Matched,Near Match,64,NSE_E_581,Nifty Healthcare Index,NSE:NIFTYHEALTHCARE-INDEX,Sector mapping
+Matched,Near Match,65,NSE_E_695,Nifty India Infrastructure & Logistics,NSE:NIFTYMULTIINFRA-INDEX,Infrastructure sector variant
+Matched,Exact / Very Close,66,NSE_E_392,Nifty IT,NSE:NIFTYIT-INDEX,Direct sector mapping
+Matched,Exact / Very Close,67,NSE_E_219,Nifty Media,NSE:NIFTYMEDIA-INDEX,Direct sector mapping
+Matched,Exact / Very Close,68,NSE_E_398,Nifty Metal,NSE:NIFTYMETAL-INDEX,Direct sector mapping
+Matched,Near Match,69,NSE_E_621,Nifty MidSmall Financial Services,NSE:NIFTYMSFINSERV-INDEX,Mid-small financial services variant
+Matched,Near Match,70,NSE_E_622,Nifty MidSmall Healthcare,NSE:NIFTYMIDSMLHLTH-INDEX,Mid-small healthcare variant
+Matched,Near Match,71,NSE_E_624,Nifty MidSmall IT & Telecom,NSE:NIFTYMSITTELCM-INDEX,Mid-small IT telecom variant
+Matched,Near Match,72,NSE_E_563,Nifty Oil & Gas,NSE:NIFTYOILANDGAS-INDEX,Sector mapping
+Matched,Exact / Very Close,73,NSE_E_58,Nifty Pharma,NSE:NIFTYPHARMA-INDEX,Direct sector mapping
+Matched,Near Match,74,NSE_E_412,Nifty Private Bank,NSE:NIFTYPVTBANK-INDEX,Banking sector variant
+Matched,Exact / Very Close,75,NSE_E_38,Nifty PSU Bank,NSE:NIFTYPSUBANK-INDEX,Direct sector mapping
+Matched,Exact / Very Close,76,NSE_E_185,Nifty Realty,NSE:NIFTYREALTY-INDEX,Direct sector mapping
+Matched,Near Match,77,NSE_E_697,Nifty500 Healthcare,NSE:NIFTYHEALTHCARE-INDEX,Healthcare sector within Nifty500
+Matched,Near Match,78,NSE_E_678,Nifty Capital Markets,NSE:NIFTYCAPITALMKT-INDEX,Capital market sector variant
+Matched,Near Match,79,NSE_E_236,Nifty Commodities,NSE:NIFTYCOMMODITIES-INDEX,Sector mapping
+Matched,Exact / Very Close,80,NSE_E_349,Nifty CPSE,NSE:NIFTYCPSE-INDEX,Direct sector mapping
+Matched,Exact / Very Close,81,NSE_E_57,Nifty Energy,NSE:NIFTYENERGY-INDEX,Direct sector mapping
+Matched,Near Match,82,NSE_E_664,Nifty EV & New Age Automotive,NSE:NIFTYEV-INDEX,EV sector variant
+Unmatched,nan,83,NSE_E_446,Nifty India Corporate Group Index - Aditya Birla Group,nan,Corporate group specific index not in config
+Matched,Near Match,84,NSE_E_597,Nifty India Digital,NSE:NIFTYINDDIGITAL-INDEX,Thematic mapping
+Matched,Exact / Very Close,85,NSE_E_40,Nifty Infrastructure,NSE:NIFTYINFRA-INDEX,Direct sector mapping
+Matched,Exact / Very Close,86,NSE_E_147,Nifty MNC,NSE:NIFTYMNC-INDEX,Direct sector mapping
+Matched,Near Match,87,NSE_E_596,Nifty Mobility,NSE:NIFTYMOBILITY-INDEX,Thematic sector mapping
+Matched,Exact / Very Close,88,NSE_E_124,Nifty PSE,NSE:NIFTYPSE-INDEX,Direct sector mapping
+Unmatched,nan,89,NSE_E_637,Nifty REITs & InvITs,nan,REITs specific variant not in config
+Matched,Near Match,90,NSE_E_663,Nifty500 Multicap Infrastructure 50:30:20,NSE:NIFTYMULTIINFRA-INDEX,Infrastructure multicap variant
+Matched,Exact / Very Close,91,NSE_E_237,Nifty India Consumption,NSE:NIFTYCONSUMPTION-INDEX,Direct thematic mapping
+Matched,Near Match,92,NSE_E_604,Nifty India Defence,NSE:NIFTYINDDEFENCE-INDEX,Thematic mapping
+Matched,Near Match,93,NSE_E_588,Nifty India Manufacturing,NSE:NIFTYINDIAMFG-INDEX,Thematic mapping
+Unmatched,nan,94,NSE_E_682,Nifty India New Age Consumption,nan,No direct new age consumption variant in config
+Unmatched,nan,95,NSE_E_684,Nifty India Railways PSU,nan,Railways PSU variant not in config
+Matched,Near Match,96,NSE_E_626,Nifty MidSmall India Consumption,NSE:NIFTYMSINDCONS-INDEX,Mid-small consumption variant
+Matched,Near Match,97,NSE_E_662,Nifty500 Multicap India Manufacturing 50:30:20,NSE:NIFTYMULTIMFG-INDEX,Manufacturing multicap variant
+Unmatched,nan,98,NSE_E_692,Nifty Chemicals,nan,No direct chemical sector variant in config
+Matched,Near Match,99,NSE_E_638,Nifty Core Housing,NSE:NIFTYCOREHOUSING-INDEX,Housing sector variant
+Matched,Near Match,100,NSE_E_611,Nifty Housing,NSE:NIFTYHOUSING-INDEX,Housing sector variant
+Unmatched,nan,101,NSE_E_691,Nifty India Internet,nan,No direct internet sector variant in config
+Unmatched,nan,102,NSE_E_683,Nifty India Select 5 Corporate Groups (MAATR),NSE:NIFTYCORPMAATR-INDEX,Corporate group variant
+Matched,Near Match,103,NSE_E_671,Nifty India Tourism,NSE:NIFTYINDTOURISM-INDEX,Thematic mapping
+Matched,Near Match,104,NSE_E_586,Nifty IPO,NSE:NIFTYIPO-INDEX,IPO sector variant
+Matched,Near Match,105,NSE_E_593,Nifty Non-Cyclical Consumer,NSE:NIFTYNONCYCCONS-INDEX,Non-cyclical consumer variant
+Matched,Near Match,106,NSE_E_676,Nifty Rural,NSE:NIFTYRURAL-INDEX,Rural thematic variant
+Matched,Exact / Very Close,107,NSE_E_47,Nifty Services Sector,NSE:NIFTYSERVSECTOR-INDEX,Direct sector mapping
+Unmatched,nan,108,NSE_E_473,Nifty SME EMERGE,nan,SME emerge variant not in config
+Matched,Near Match,109,NSE_E_612,Nifty Transportation & Logistics,NSE:NIFTYTRANSLOGIS-INDEX,Sector mapping
+Unmatched,nan,110,NSE_E_694,Nifty Waves,nan,Waves thematic variant not in config
